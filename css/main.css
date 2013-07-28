@@ -106,19 +106,41 @@ header li {
 	padding: 1.5em;
 }
 
+header {
+	margin-bottom: 2em;
+}
+
 
 
 footer
 {
 	width: 300px;
+	margin-top: 10em;
 	margin-left: auto;
 	margin-right:auto;
+	margin-bottom: 2em;
 	font-size: 0.8em;
 }
 
+.content_frame {
+	margin-left: 6em;
+	margin-right: 6em;
+}
 
 
+.splash_frame {
+	background: #eee;
+	height: 400px;
 
+}
+
+
+.char_frame {
+	background: #eee;
+	height: 250px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
 
 
