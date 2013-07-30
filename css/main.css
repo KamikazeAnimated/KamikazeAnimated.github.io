@@ -163,8 +163,12 @@ footer
 
 }
 
-
-
+.screenshot_small
+{
+	background: #aaa;
+	width: 400px;
+	height:225px;
+}
 
 
 
