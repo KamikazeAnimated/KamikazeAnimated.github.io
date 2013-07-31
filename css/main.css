@@ -143,7 +143,8 @@ footer
 }
 
 .splash_floater li {
-	display: inline;	
+	display: block;
+	text-decoration: none;
 }
 
 #splash{
