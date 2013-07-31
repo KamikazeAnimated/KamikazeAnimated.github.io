@@ -137,8 +137,12 @@ footer
 	position: absolute;
 	width: 150px;
 	z-index: 110;
+	top: 50px;
 }
 
+.splash_floater li {
+	display: inline;	
+}
 
 #splash{
 	position: absolute;
