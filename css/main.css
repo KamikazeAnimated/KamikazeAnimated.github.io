@@ -136,7 +136,6 @@ footer
 .splash_floater {
 	position: absolute;
 	width: 150px;
-	top: -100px;
 	z-index: 110;
 }
 
