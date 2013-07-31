@@ -137,11 +137,13 @@ footer
 	position: absolute;
 	width: 150px;
 	top: -100px;
+	z-index: 110;
 }
 
 
 #splash{
-	position: absolute;	
+	position: absolute;
+	z-index: 100;
 }
 
 
