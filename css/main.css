@@ -94,7 +94,12 @@ textarea {
    ========================================================================== */
 
 body {
+	/* Need to move this to the page container class so I'm not contaminating the body tag*/
 	max-width:1000px;
+}
+
+.page_container {
+	width: 1000px;
 }
    
 header ul {
@@ -126,6 +131,10 @@ footer
 	margin-right:auto;
 	margin-bottom: 2em;
 	font-size: 0.8em;
+}
+
+.splash_floater {
+	margin-top:-400px;
 }
 
 
