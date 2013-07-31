@@ -93,6 +93,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	max-width:1000px;
+}
    
 header ul {
 	height: 1.5em;
@@ -110,6 +113,10 @@ header {
 	margin-bottom: 2em;
 }
 
+body{
+	margin-left: auto;
+	margin-right: auto;
+}
 
 footer
 {
@@ -120,6 +127,7 @@ footer
 	margin-bottom: 2em;
 	font-size: 0.8em;
 }
+
 
 .content_frame {
 	margin-left: 6em;
@@ -145,9 +153,8 @@ footer
 
 .char_img {
 	display: block;
-	width: 160px;
+	width: 200px;
 	height: 100%;
-	background: #ddd;
 	float: left;
 }
 
@@ -156,10 +163,7 @@ footer
 	height: 150px;
 	width: 70%
 	float: left;
-
-}
-
-.char_desc p {
+	
 
 }
 
