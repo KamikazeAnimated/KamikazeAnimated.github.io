@@ -154,6 +154,13 @@ footer
 	width:1000px;
 }
 
+#social_bugs li {
+	display: inline;
+	padding: 1.2em;
+}
+
+
+
 
 .content_frame {
 	margin-left: 6em;
