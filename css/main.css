@@ -189,11 +189,19 @@ footer
 	text-decoration: none;
 }
 
-#splash{
+#splash_left{
 	position: absolute;
 	z-index: 100;
 	height:400px;
-	width:1000px;
+	width:500px;
+}
+
+#splash_right{
+	position: absolute;
+	z-index: 100;
+	height:400px;
+	width:500px;
+	left:500px;
 }
 
 #social_bugs li {
