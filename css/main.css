@@ -19,9 +19,24 @@ textarea {
 }
 
 body {
+    
     font-size: 1em;
     line-height: 1.4;
+    
 }
+
+h2 {
+    color: #696D6E; 
+}
+
+h3 {
+    color: #ABABAB;
+}
+
+p {
+    color: #D6D6D6;
+}
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -95,8 +110,21 @@ textarea {
 
 body {
 	/* Need to move this to the page container class so I'm not contaminating the body tag*/
-	max-width:1000px;
+	max-width:100%;
 }
+
+div.content_frame {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+div.char_frame {
+    padding: 20px 28px 20px 20px;
+    background-color: #303030;
+}
+
+
 
 .page_container {
 	width: 1000px;
@@ -116,6 +144,20 @@ header li {
 
 header {
 	margin-bottom: 2em;
+}
+
+header, a:link {
+    color: #AB99C2;
+    text-decoration: none;
+}
+
+header, a:visited {
+    color: #615473;
+    
+}
+
+header, a:hover {
+    color: #FFE83B;
 }
 
 body{

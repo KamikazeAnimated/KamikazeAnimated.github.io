@@ -21,8 +21,25 @@ nav,
 section,
 summary {
     display: block;
+    font-size: small;
+    text-transform: uppercase;
 }
 
+
+header, footer {
+    display:block; max-width: 100%; background:black; margin:0; padding:12px;
+}
+
+
+header, a:link {
+    color: red;
+    
+}
+
+header, a:visited {
+    color: orange;
+    
+}
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
@@ -70,7 +87,7 @@ audio:not([controls]) {
  */
 
 html {
-    background: #fff; /* 1 */
+    background: #333333; /* 1 */
     color: #000; /* 2 */
     font-size: 100%; /* 3 */
     -webkit-text-size-adjust: 100%; /* 4 */
@@ -312,7 +329,7 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 40px;
+    padding: 0px 0 0 40px;
 }
 
 /**
