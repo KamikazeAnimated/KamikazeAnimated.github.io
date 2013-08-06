@@ -176,7 +176,7 @@ footer
 
 .splash_floater {
 	position: absolute;
-	width: 30em;
+	width: 1000px;
 	z-index: 110;
 	bottom: 10px;
 	/* left: 50px; */
@@ -212,30 +212,36 @@ footer
 	padding: 1.2em;
 }
 
-
-
-
 .content_frame {
 	margin-left: 6em;
 	margin-right: 6em;
 }
 
 
-.splash_frame {
-	background: #eee;
+#splash_frame {
 	height: 400px;
 	position: relative;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#splash_container{
+	background:#000;
 
 }
 
 
 .char_frame {
 	background: #eee;
-	height: 300px;
+	min-height: 300px;
 	margin-top: -1em;
 	margin-bottom: 3em;
-	
+	padding-right:1em;
 }
+
+
 
 
 .char_img {
@@ -248,10 +254,8 @@ footer
 
 .char_desc {
 	height: 150px;
-	width: 70%
-	float: left;
-	
-
+	width: 60%;
+	 float: left;
 }
 
 .screenshot_small
