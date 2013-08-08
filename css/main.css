@@ -207,6 +207,39 @@ footer
 	left:500px;
 }
 
+.splash_floater_alt {
+	position: absolute;
+	width: 1000px;
+	z-index: 110;
+	/*bottom: 10px;*/
+	bottom:20%;
+	left: 20%;
+	background: #000;
+	opacity: 0.7;
+}
+
+#splash_left_alt{
+	position: absolute;
+	z-index: 100;	
+	width:50%;
+	height:auto;
+}
+
+#splash_right_alt{
+	position: absolute;
+	z-index: 100;
+	width:50%;
+	height:auto;
+	left:50%;
+}
+
+#social_bugs{
+	position:absolute;
+	right:0em;
+	top:1.3em;
+	width:20em;
+}
+
 #social_bugs li {
 	display: inline;
 	padding: 1.2em;
@@ -218,6 +251,16 @@ footer
 }
 
 
+#splash_frame_alt {
+	height: 600px;
+	position: relative;
+	max-width:1500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 #splash_frame {
 	height: 400px;
 	position: relative;
@@ -228,7 +271,8 @@ footer
 }
 
 #splash_container{
-	background:#000;
+	/*background:#000;*/
+	margin-top: -1.6em;
 
 }
 
