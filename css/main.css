@@ -108,28 +108,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-	/* Need to move this to the page container class so I'm not contaminating the body tag*/
-	max-width:100%;
-}
 
-div.content_frame {
-    width: 70%;
-    margin: 0 auto;
-    background-color: #333333;
-}
-
-div.char_frame {
-    padding: 20px 28px 20px 20px;
-    background-color: #303030;
-}
-
-
-
-.page_container {
-	width: 1000px;
-}
-   
+ 
+/*HEADER*/
+ 
 header ul {
 	height: 1.5em;
 	width: 60em;
@@ -159,20 +141,38 @@ header, a:hover {
     color: #FFE83B;
 }
 
+#social_bugs{
+	position:absolute;
+	right:0em;
+	top:1.3em;
+	width:20em;
+}
+
+#social_bugs li {
+	display: inline;
+	padding: 0.5em;
+}
+
+
+div.content_frame {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+/*GENERAL PAGE*/
+
+.page_container {
+	width: 1000px;
+}
+
 body{
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
-footer
-{
-	width: 300px;
-	margin-top: 10em;
-	margin-left: auto;
-	margin-right:auto;
-	margin-bottom: 2em;
-	font-size: 0.8em;
-}
+/*SPLASH PAGE*/
 
 .splash_floater {
 	position: absolute;
@@ -233,17 +233,7 @@ footer
 	left:50%;
 }
 
-#social_bugs{
-	position:absolute;
-	right:0em;
-	top:1.3em;
-	width:20em;
-}
 
-#social_bugs li {
-	display: inline;
-	padding: 1.2em;
-}
 
 .content_frame {
 	margin-left: 6em;
@@ -276,17 +266,16 @@ footer
 
 }
 
+/*CHARACTER PAGE*/
 
-.char_frame {
-	background: #eee;
+div.char_frame {
+    padding: 20px 28px 20px 20px;
+    background: #303030;
 	min-height: 300px;
 	margin-top: -1em;
 	margin-bottom: 3em;
 	padding-right:1em;
 }
-
-
-
 
 .char_img {
 	display: block;
@@ -299,7 +288,7 @@ footer
 .char_desc {
 	height: 150px;
 	width: 60%;
-	 float: left;
+	float: left;
 }
 
 .screenshot_small
@@ -309,6 +298,16 @@ footer
 	height:225px;
 }
 
+footer
+{
+	width: 350px;
+	margin-top: 10em;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 2em;
+	font-size: 0.8em;
+	color: #aaa;
+}
 
 
 
