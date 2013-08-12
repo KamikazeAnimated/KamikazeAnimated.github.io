@@ -300,11 +300,10 @@ div.char_frame {
 
 footer
 {
-	width: 350px;
 	margin-top: 10em;
 	margin-left: auto;
 	margin-right:auto;
-	margin-bottom: 2em;
+	/*margin-bottom: 2em;*/
 	font-size: 0.8em;
 	color: #aaa;
 }
