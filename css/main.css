@@ -112,10 +112,19 @@ textarea {
  
 /*HEADER*/
  
+ header {
+	margin-bottom: 2em;
+}
+ 
+#link_bar{
+	min-width:70em;
+} 
+  
 header ul {
 	height: 1.5em;
 	width: 60em;
 	margin-top:0.1em;
+	display: inline;
 }
 
 header li {
@@ -123,8 +132,10 @@ header li {
 	padding: 1.2em;
 }
 
-header {
-	margin-bottom: 2em;
+#social_bugs{
+	width:20em;
+	float:right;
+	margin-right:-8em;
 }
 
 header, a:link {
@@ -141,12 +152,6 @@ header, a:hover {
     color: #FFE83B;
 }
 
-#social_bugs{
-	position:absolute;
-	right:0em;
-	top:1.3em;
-	width:20em;
-}
 
 #social_bugs li {
 	display: inline;
@@ -154,13 +159,20 @@ header, a:hover {
 }
 
 
+
+
+/*GENERAL PAGE*/
+
+.setting_h3{
+	margin-top: 3em;
+}
+
 div.content_frame {
     width: 70%;
     margin: 0 auto;
     background-color: #333333;
-}
 
-/*GENERAL PAGE*/
+}
 
 .page_container {
 	width: 1000px;
@@ -169,10 +181,48 @@ div.content_frame {
 body{
 	margin-left: auto;
 	margin-right: auto;
-
+	min-width: 60em;
 }
 
 /*SPLASH PAGE*/
+
+#splash_frame {
+	height: 500px;
+	position: relative;
+	max-width:1500px;
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#splash_container{
+	/*background:#000;*/
+	margin-top: -1.6em;
+
+}
+
+#splash_frame img{
+	position: absolute;
+	z-index: 100;
+	width:25%;
+	height:auto;
+}
+
+#splash_1{
+}
+
+#splash_2{
+	left:25%;
+}
+
+#splash_3{
+	left:50%;
+}
+
+#splash_4{
+	left:75%;
+}
 
 .splash_floater {
 	position: absolute;
@@ -192,21 +242,6 @@ body{
 	opacity: 1.0;
 }
 
-#splash_left{
-	position: absolute;
-	z-index: 100;
-	height:400px;
-	width:500px;
-}
-
-#splash_right{
-	position: absolute;
-	z-index: 100;
-	height:400px;
-	width:500px;
-	left:500px;
-}
-
 .splash_floater_alt {
 	position: absolute;
 	width: 1000px;
@@ -218,53 +253,9 @@ body{
 	opacity: 0.7;
 }
 
-#splash_left_alt{
-	position: absolute;
-	z-index: 100;	
-	width:50%;
-	height:auto;
-}
-
-#splash_right_alt{
-	position: absolute;
-	z-index: 100;
-	width:50%;
-	height:auto;
-	left:50%;
-}
 
 
 
-.content_frame {
-	margin-left: 6em;
-	margin-right: 6em;
-}
-
-
-#splash_frame_alt {
-	height: 600px;
-	position: relative;
-	max-width:1500px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-#splash_frame {
-	height: 400px;
-	position: relative;
-	width:1000px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-#splash_container{
-	/*background:#000;*/
-	margin-top: -1.6em;
-
-}
 
 /*CHARACTER PAGE*/
 
@@ -293,19 +284,16 @@ div.char_frame {
 
 .screenshot_small
 {
-	background: #aaa;
 	width: 400px;
-	height:225px;
+	height:auto;
 }
 
 footer
 {
 	margin-top: 10em;
-	margin-left: auto;
-	margin-right:auto;
-	/*margin-bottom: 2em;*/
 	font-size: 0.8em;
 	color: #aaa;
+	opacity: 0.5;
 }
 
 
