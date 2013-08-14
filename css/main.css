@@ -163,9 +163,7 @@ header, a:hover {
 
 /*GENERAL PAGE*/
 
-.setting_h3{
-	margin-top: 3em;
-}
+
 
 div.content_frame {
     width: 70%;
@@ -270,22 +268,36 @@ div.char_frame {
 
 .char_img {
 	display: block;
+	position: absolute;
 	width: 200px;
-	height: 100%;
-	float: left;
+	height: auto;
 }
 
 
 .char_desc {
-	height: 150px;
-	width: 60%;
-	float: left;
+	margin-left:220px;
+	display:block;
+}
+
+/* SETTING PAGE*/
+.text_section{
+	background: #303030;
+	padding: 1em;
+	margin-bottom: 2em;
+	min-height:225px;
+}
+
+.setting_desc {
+	margin-left: 420px;
+	display: block;
 }
 
 .screenshot_small
 {
+	position: absolute;
 	width: 400px;
-	height:auto;
+	height:225px;
+	display: block;
 }
 
 footer
