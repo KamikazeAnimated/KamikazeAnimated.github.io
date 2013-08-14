@@ -138,6 +138,11 @@ header li {
 	margin-right:-8em;
 }
 
+#social_bugs li {
+	display: inline;
+	padding: 0.5em;
+}
+
 header, a:link {
     color: #AB99C2;
     text-decoration: none;
@@ -151,13 +156,6 @@ header, a:visited {
 header, a:hover {
     color: #FFE83B;
 }
-
-
-#social_bugs li {
-	display: inline;
-	padding: 0.5em;
-}
-
 
 
 
@@ -306,6 +304,12 @@ footer
 	font-size: 0.8em;
 	color: #aaa;
 	opacity: 0.5;
+}
+
+#under_construction
+{
+	margin-top:10em;
+	margin-bottom:15em;
 }
 
 
