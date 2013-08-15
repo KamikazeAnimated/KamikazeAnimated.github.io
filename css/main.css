@@ -312,7 +312,13 @@ footer
 	margin-bottom:15em;
 }
 
+#social_links{
+	margin-top: 2em;
+}
 
+#social_links li{
+	display: inline;
+}
 
 /* ==========================================================================
    Helper classes
