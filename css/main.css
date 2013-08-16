@@ -270,10 +270,24 @@ div.char_frame {
 	display: block;
 }
 
+.headshot{
+	position: absolute;
+	width: 144px;
+	height: 215px;
+	display: block;
+}
+
+.profile_desc
+{
+	margin-left: 164px;
+	display: block;
+}
+
 footer
 {
 	margin-top: 10em;
 	font-size: 0.8em;
+	background: transparent;
 	color: #aaa;
 	opacity: 0.5;
 }
