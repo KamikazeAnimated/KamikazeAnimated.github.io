@@ -175,7 +175,11 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 60em;
+}
+
+html{
 	background-image: url('../img/bg.jpg');
+	background-attachment: fixed;
 }
 
 /*SPLASH PAGE*/
@@ -222,12 +226,14 @@ body{
 
 div.char_frame {
     padding: 20px 28px 20px 20px;
-    background-color: #303030;
 	min-height: 300px;
 	margin-top: -1em;
 	margin-bottom: 3em;
 	padding-right:1em;
+	background-color: rgba(70,64,70,0.2);
 }
+
+
 
 .char_img {
 	display: block;
@@ -240,11 +246,12 @@ div.char_frame {
 .char_desc {
 	margin-left:220px;
 	display:block;
+
 }
 
 /* SETTING PAGE*/
 .text_section{
-	background-color: #303030;
+	background-color: rgba(70,64,70,0.2);
 	padding: 1em;
 	margin-bottom: 2em;
 	min-height:225px;
