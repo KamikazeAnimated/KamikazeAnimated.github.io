@@ -87,7 +87,7 @@ audio:not([controls]) {
  */
 
 html {
-    background: #333333; /* 1 */
+    background: #333333; /*1*/
     color: #000; /* 2 */
     font-size: 100%; /* 3 */
     -webkit-text-size-adjust: 100%; /* 4 */

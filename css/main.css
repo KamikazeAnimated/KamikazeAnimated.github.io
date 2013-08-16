@@ -19,10 +19,8 @@ textarea {
 }
 
 body {
-    
     font-size: 1em;
-    line-height: 1.4;
-    
+    line-height: 1.4; 
 }
 
 h2 {
@@ -166,8 +164,7 @@ header, a:hover {
 div.content_frame {
     width: 70%;
     margin: 0 auto;
-    background-color: #333333;
-
+    /*background-color: #333333;*/
 }
 
 .page_container {
@@ -178,6 +175,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 60em;
+	background-image: url('../img/bg.jpg');
 }
 
 /*SPLASH PAGE*/
@@ -193,7 +191,7 @@ body{
 }
 
 #splash_container{
-	/*background:#000;*/
+	/*background-color:#000;*/
 	margin-top: -1.6em;
 
 }
@@ -220,44 +218,11 @@ body{
 	left:75%;
 }
 
-.splash_floater {
-	position: absolute;
-	width: 1000px;
-	z-index: 110;
-	bottom: 10px;
-	/* left: 50px; */
-	background: #000;
-	opacity: 0.7;
-}
-
-
-
-.splash_floater li {
-	display: inline;
-	padding-left: 0.6em;
-	opacity: 1.0;
-}
-
-.splash_floater_alt {
-	position: absolute;
-	width: 1000px;
-	z-index: 110;
-	/*bottom: 10px;*/
-	bottom:20%;
-	left: 20%;
-	background: #000;
-	opacity: 0.7;
-}
-
-
-
-
-
 /*CHARACTER PAGE*/
 
 div.char_frame {
     padding: 20px 28px 20px 20px;
-    background: #303030;
+    background-color: #303030;
 	min-height: 300px;
 	margin-top: -1em;
 	margin-bottom: 3em;
@@ -279,7 +244,7 @@ div.char_frame {
 
 /* SETTING PAGE*/
 .text_section{
-	background: #303030;
+	background-color: #303030;
 	padding: 1em;
 	margin-bottom: 2em;
 	min-height:225px;
